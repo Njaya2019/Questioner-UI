@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Create meetup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/createmeetup.css" />
+    
+</head>
+<body>
+        <div id="nav-links">
+            <a href="adminpage.html">Admin homepage</a>    
+        </div>
+        <div id="brand">
+                <h1>Questioner admin. <span id="nav-desc">Ask, share and learn.</span></h1>   
+        </div>
+
+        <h1 id="createmeetup-heading">Create Meetup</h1>
+        <form id="meetup-form" action="">
+               <div class="row">
+                       <label for="meetup-title">Meetup Title:</label>
+                       <input type="text" id="meetup-title" name="meetup-title">
+               </div>
+               <div class="row">
+                       <label for="meetup-descr">Meetup description:</label>
+                       <textarea name="meetup-descr" id="meetup-descr"></textarea>
+               </div>
+               
+                <div class="row">
+                   <label for="meetup-img">Meetup image:</label>
+                   <input type="file" name="meetup-img" accept="image/*">
+                </div>
+ 
+                <div class="row">
+                   <label></label>
+                   <button type="submit" id="meetup-button" name="submit">Create meetup</button>
+                </div>
+
+        </form>
+    
+
+
+        <div id="footer">
+                &copy; <span>2019 Questioner. All rights reserved.</span> 
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
