@@ -1,0 +1,115 @@
+body{
+margin: 0px;
+}
+#brand{
+margin-top: 0px;
+background-color: blue;
+color: white; 
+padding: 1px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#brand h1{
+margin-left: 5px;
+font-size: 25px;
+padding-top: 0px;     
+}
+
+#nav-links a{
+text-decoration: none;
+font-family: 'Courier New', Courier, monospace;
+padding: .2em 1em;
+color: #fff;
+background-color:#00BFFF;
+border-radius: 5px;
+float: right;
+margin-right: 5px;
+margin-top: 20px;    
+}
+
+#nav-links a:hover{
+color: blue;
+background-color: white;
+}
+
+#nav-desc{
+font-size: 13px;
+font-style: italic;
+}
+
+#meetup-form{
+color: black;
+display: table;
+border-radius: 5px;
+border: 1px solid black;
+margin-right: auto;
+margin-left: auto;
+background-color: #FFFFFF;  
+padding: 60px; 
+}
+        
+.row{
+display: table-row;
+}
+.row label{
+display: table-cell;
+padding: 2px;
+text-align: right;  
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+}
+.row input[type=text]{
+display: table-cell; 
+padding: 10px;
+border: 1px black solid;  
+border-radius: 6px;
+width: 350px;
+margin-bottom: 30px;
+font-size: 18px;   
+}
+.row input[type=file]{
+display: table-cell; 
+padding: 10px;
+border: 1px black solid;  
+border-radius: 6px;
+width: 350px;
+margin-bottom: 30px;
+font-size: 18px;   
+}
+.row textarea{
+display: table-cell; 
+padding: 10px;
+border: 1px black solid;  
+border-radius: 6px;
+width: 350px;
+margin-bottom: 30px;
+font-size: 18px;   
+}
+
+#meetup-button{
+padding: 10px; 
+border-radius: 6px;
+width: 200px;
+color: white;
+background-color: blue;
+float: right;
+border: 1px solid black;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#createmeetup-heading{
+text-align: center;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#footer{
+    
+color:white;
+text-align: center; 
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 10%;
+background-color: blue;
+font-size: 10px;
+}

@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    }
+    #brand{
+    margin-top: 0px;
+    background-color: blue;
+    color: white; 
+    padding: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    #brand h1{
+     margin-left: 5px;
+     font-size: 25px;
+     padding-top: 0px; 
+    
+    }
+    
+    #nav-links #menu{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    padding: .2em 1em;
+    color: #fff;
+    /*background-color:#00BFFF;*/
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+        
+    }
+
+    #nav-desc{
+        font-size: 13px;
+        font-style: italic;
+    }
+    ul{
+        color: black;
+        list-style: none;
+    }
+    #dropdown{
+    display: none;
+    }
+    #dropdown.active{
+        display: block;
+        position: absolute;
+        border: 1px solid black;
+        top:30px;
+        right: 25px;
+        background-color: white;
+        list-style: none;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    #dropdown.active li{
+    padding: 5px;
+    }
+    #dropdown.active a{
+        text-decoration: none;
+        padding: 10px;
+        color: blue;
+    }
+
+    #dropdown.active a:hover{
+    background-color: blue;
+    color: white;
+    }
+
+
+    table,th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    th,td{
+    padding: 5px;
+    width: 150px;
+    }
+    tr:nth-child(even){
+    background-color: #e8e8e8;
+    }
+    tr:nth-child(odd){
+    background-color: white;
+    }
+
+    #meetups-table{
+     margin-top: 50px;
+     margin-left: 5px;
+    }
+
+    .delete{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+    cursor: pointer;
+    }
+    .edit{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: blue;
+    cursor: pointer;   
+    }
+  
