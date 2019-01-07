@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>meetup page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/meetup.css" />
+    
+</head>
+<body>
+        <div id="nav-links">
+                <div id="menu">Njaya &dtri;
+                        <ul id="dropdown">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Logout</a></li>
+                        </ul>
+                    </div>
+                
+        </div>
+        <div id="brand">
+                <h1>Questioner meetup. <span id="nav-desc">Ask, share and learn.</span></h1>       
+        </div>
+  <div id="meetup-container">
+  <div class="meetup-info left">
+        <img id="meetup-img"  src="../img/meetupImg/javascript2.jpg" alt="meetup image">
+        <h3>JAVASCRIPT TUTORIALS</h3>
+        <h4>profile creator</h4>
+        <p>Andrew Njaya</p>
+        <h4>profile description</h4>
+        <P>
+        This platform helps absolute beginners to ask any question on javascript.
+
+        
+        </P>
+        <h4>Questions asked</h4>
+       <p>Questions(1)</p>
+  </div>
+  <div class="meetup-quiz right">
+        <form id="quiz" action="">
+         <div class="row">
+           <label for="question-title">Question title:</label>
+           <input type="text" id="question-title" name="question-title">
+        </div>
+         <div class="row">
+          <label for="question-txt">Question description:</label>
+          <textarea name="question-txt" id="question-txt" cols="20" rows="10">
+         
+          </textarea>
+        </div>
+        <div class="row">
+            <label></label>
+            <input type="submit" id="post-quiz-btn" value="Post">
+        </div>
+        </form>
+        <div class="questions-posted">
+           <h3>Andrew Njaya <span class="options"></span>
+                <ul class="dropdown-question-options">
+                  <li> <button>Edit</button></li>
+                  <li> <button>Delete</button></li>
+                </ul>
+        </h3>
+           
+           <div class="posted-question-section">
+             <h4>How to select an element in javascript?</h4>
+             <p>I want to select an element in a html document and change it's value</p>
+           </div>
+           <div class="btn-section">
+              <input type="submit" class="thump-up btn-sect" value="&#128077; Vote(1)">
+              <input type="submit" class="thump-down btn-sect" value="&#128078; Reject(0)">
+              <input type="submit" class="message-icon btn-sect" value="&#x1f4ac; Comments(1)">
+              <div class="c">
+              <div class="comments-section">
+                        <p class="commentor-name">John Mwakazi.</p>
+                         <p class="comment">
+                              Andrew you can select a html element by it's tag name,class name or it's id.
+                              For example "var x = document.getElementById("main");". Where "main" is the id 
+                              of the element.
+                          </p>     
+                </div>
+              </div>
+           </div>
+           <textarea name="" class="comment-input" cols="30" rows="10" placeholder="Write a comment"></textarea>
+        </div>
+        <div class="questions-posted">
+            <h3>Andrew Njaya 
+                <span class="options"></span>
+                <ul class="dropdown-question-options">
+                        <li> <button>Edit</button></li>
+                        <li> <button>Delete</button></li>
+                </ul>
+            </h3>
+            
+            <div class="posted-question-section">
+              <h4>How to select an element in javascript?</h4>
+              <p>I want to select an element in a html document and change it's value</p>
+            </div>
+            <div class="btn-section">
+               <input type="button" class="thump-up btn-sect" value="&#128077; Vote(1)">
+               <input type="button" class="thump-down btn-sect" value="&#128078; Reject(0)">
+              <input type="button" class="message-icon btn-sect" value="&#x1f4ac; Comments(1)">
+              <div class="c">
+              <div class="comments-section">
+                   <p class="commentor-name">John Mwakazi.</p>
+                    <p class="comment">
+                         Andrew you can select a html element by it's tag name,class name or it's id.
+                         For example "var x = document.getElementById("main");". Where "main" is the id 
+                         of the element.
+                     </p>     
+                </div>
+          </div>
+           </div>
+            <textarea name="" class="comment-input" cols="30" rows="10" placeholder="Write a comment"></textarea>
+        </div>
+  </div>
+</div>
+    
+<script src="../js/adminpage.js"></script>
+<script type="text/javascript" src="../js/meetup.js"></script>
+</body>
+</html>
